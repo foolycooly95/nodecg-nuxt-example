@@ -1,0 +1,33 @@
+{
+  "name": "nodecg-nuxt-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "dev": "nuxt dev & npx nodecg start",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "cors": "^2.8.5",
+    "nodecg": "^2.5.3",
+    "nodecg-vue-composable": "^1.1.0",
+    "nuxt": "^3.15.4",
+    "vite": "^5.4.14",
+    "vite-plugin-nodecg": "^2.1.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "nodecg": {
+    "compatibleRange": "^1.9.0",
+    "graphics": [
+      {
+        "file": "scoreboard.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ]
+  }
+}
